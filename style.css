@@ -1,0 +1,99 @@
+header {
+    border: 1px solid brown;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: blue;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 40%;
+    border: 2px solid blue;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px orange;
+}
+
+header img:hover {
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background-color: blue;
+    color: antiquewhite;
+    border: none;
+    border-radius: 30px 0;
+    box-shadow: 2px 2px 10px orange;
+}
+header button:hover {
+    background-color: antiquewhite;
+    color: blue;
+    border: 1px solid blue;
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+
+#about {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+.left-about {
+    width: 50%;
+}
+.left-about img {
+    width: 40%;
+    border-radius: 50px 0;
+    margin-left: 100px;
+    box-shadow: 3px 3px 12px gray;
+}
+.right-about {
+    width: 50%;
+    padding: 40px;
+}
+.right-about h2 {
+    color: blue;
+}
+#project {
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid gray;
+    text-align: center;
+}
+#project h2 {
+    color: blue;
+}
+
+.project-image {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-image img {
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.project-image img:hover {
+    transform: scale(.9);
+    transition: all.3s ease-in-out;
+    box-shadow: 4px 4px 10px orange;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(229, 225, 225);
+    color: blue;
+    border-top: 3px solid blue;
+}
+footer img {
+    width: 24px;
+}
